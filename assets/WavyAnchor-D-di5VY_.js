@@ -1,0 +1,1 @@
+import{j as t}from"./index-BJUjLPZq.js";function o({text:e,link:r}){return t.jsx("a",{href:r,className:"hind-medium decoration-wavy decoration-neutral-400 underline underline-offset-4 text-black medium text-neutral-900 dark:text-white transition duration-200 hover:decoration-blue-600 dark:hover:decoration-orange-400",children:e})}export{o as W};
