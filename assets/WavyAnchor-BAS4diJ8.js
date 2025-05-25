@@ -1,1 +1,0 @@
-import{j as r,e as n}from"./index-ZZFOduK3.js";function a({text:e,link:t}){return r.jsx(n,{to:t,className:"hind-medium decoration-wavy decoration-neutral-400 underline underline-offset-4 text-black medium text-neutral-900 dark:text-white transition duration-200 hover:decoration-blue-600 dark:hover:decoration-orange-400",children:e})}export{a as W};
