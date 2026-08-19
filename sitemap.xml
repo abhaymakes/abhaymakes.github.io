@@ -1,57 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://abhaymakes.github.io/</loc>
-    <lastmod>2025-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
-
   <url>
-    <loc>https://abhaymakes.github.io/works</loc>
-    <lastmod>2025-07-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://abhaymakes.github.io/about</loc>
   </url>
-
   <url>
-    <loc>https://abhaymakes.github.io/writings</loc>
-    <lastmod>2025-07-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://abhaymakes.github.io/writing</loc>
   </url>
-
   <url>
-    <loc>https://abhaymakes.github.io/contact</loc>
-    <lastmod>2025-07-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://abhaymakes.github.io/writing/redesigning-my-portfolio</loc>
+    <lastmod>2026-08-16</lastmod>
   </url>
-
-  <url>
-    <loc>https://abhaymakes.github.io/gallery</loc>
-    <lastmod>2025-07-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://abhaymakes.github.io/colophon</loc>
-    <lastmod>2025-07-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-    <url>
-      <loc>https://abhaymakes.github.io/writings/csrf-you-get-hacked-without-clicking-anything</loc>
-      <changefreq>yearly</changefreq>
-      <priority>0.7</priority>
-    </url>
-
-    <url>
-      <loc>https://abhaymakes.github.io/writings/hello-world</loc>
-      <changefreq>yearly</changefreq>
-      <priority>0.7</priority>
-    </url>
 </urlset>

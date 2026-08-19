@@ -1,63 +1,71 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <script>
-      (function() {
-        const theme = localStorage.getItem("theme");
-        if (theme === "dark") {
-          document.documentElement.classList.add("dark");
-        }
-      })();
-    </script>
-    
-    <script>
-      if (
-        location.pathname !== "/" &&
-        !location.pathname.includes(".") &&
-        sessionStorage
-      ) {
-        sessionStorage.redirect = location.pathname;
-      }
-    </script>
 
-<style>
-  html.dark body {
-    background-color: #050505; 
-    color: #ffffff;
-  }
-</style>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Abhay Shukla - Cybersecurity and Development Adventures</title>
+
+  <meta name="description"
+    content="Abhay Shukla is a cybersecurity consultant specializing in VAPT, web and API security testing, automation, and security tooling." />
+
+  <meta name="robots" content="index, follow" />
+
+  <link rel="canonical" href="https://abhaymakes.github.io/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Abhay Shukla - Cybersecurity and Development Adventures" />
+  <meta name="og:description"
+    content="A personal portfolio exploring hardware, software development, cybersecurity, and the projects I build along the way." />
+  <meta property="og:url" content="https://abhaymakes.github.io/" />
+  <meta property="og:image" content="https://abhaymakes.github.io/og.webp" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Abhay Shukla - Cybersecurity and Development Adventures" />
+  <meta name="twitter:description"
+    content="A personal portfolio exploring hardware, software development, cybersecurity, and the projects I build along the way." />
+  <meta name="twitter:image" content="https://abhaymakes.github.io/og.webp" />
 
 
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
 
+  <meta name="google-site-verification" content="wOngVkUqrHhQ4c6H3crbm_kh9RMbVCUeeapKTTnfwv4" />
+  <script type="module" crossorigin src="/assets/index-LylSLyYv.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CRKMAoZX.css">
+</head>
 
-    <meta charset="UTF-8" />
-    <title>Abhay Shukla | Cybersecurity & Developer Portfolio</title>
+<body>
+  <div id="root"></div>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Abhay Shukla",
+  "url": "https://abhaymakes.github.io/",
+  "jobTitle": "Cybersecurity Consultant and Developer",
+  "sameAs": [
+    "https://github.com/abhaymakes",
+    "https://linkedin.com/in/itsabhay"
+  ]
+}
+</script>
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem("theme") || "system";
+        var isDark =
+          stored === "dark" ||
+          (stored === "system" &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches);
+        document.documentElement.classList.toggle("dark", isDark);
+      } catch (e) { }
+    })();
+  </script>
+</body>
 
-    <meta name="description" content="Portfolio of Abhay Shukla – Cybersecurity graduate, developer, and curious maker. Explore my projects, blog posts, and tools I've built." />
-    <meta name="keywords" content="Abhay Shukla, Cybersecurity, Developer, React, Portfolio, India, Programming, Tools, UI Design, Security, Personal Blog" />
-    <meta name="author" content="Abhay Shukla" />
-
-    <meta property="og:title" content="Abhay Shukla | Cybersecurity & Developer Portfolio" />
-    <meta property="og:description" content="Cybersecurity graduate and developer sharing projects, thoughts, and experiments." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://abhaymakes.github.io" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Abhay Shukla | Cybersecurity & Developer Portfolio" />
-    <meta name="twitter:description" content="Follow along as I explore cybersecurity, build tools, and share insights through my blog." />
-
-    <link rel="icon" type="image/png" href="/assets/icon-D9oOtctb.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/dheereshagrwal/coloured-icons@master/src/app/ci.min.css"
-/>
-    <title>Abhay Shukla | Developer</title>
-    <script type="module" crossorigin src="/assets/index-Cb15xU-m.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DircTPm8.css">
-  </head>
-  <body>
-    <div id="root"></div>
-    
-  </body>
 </html>
